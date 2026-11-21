@@ -1,0 +1,161 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://aquila6797.github.io/-.-/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Архивный документ, «Заведующему Главным управлением архивным делом» 1921 г.",
+  "description": "Рукописный архивный документ, 6 листов",
+  "metadata": [
+    {
+      "label": "Дата",
+      "value": "1921 г."
+    },
+    {
+      "label": "Язык",
+      "value": "русский"
+    },
+    {
+      "label": "Количество листов",
+      "value": "6"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://aquila6797.github.io/-.-/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://aquila6797.github.io/-.-/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "Лист 1",
+          "width": 3042,
+          "height": 4968,
+          "images": [
+            {
+              "@id": "https://aquila6797.github.io/-.-/annotation/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://aquila6797.github.io/-.-/ГАРФ_5325_9_223_30_25.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3042,
+                "height": 4968
+              },
+              "on": "https://aquila6797.github.io/-.-/canvas/1"
+            }
+          ]
+        },
+        {
+          "@id": "https://aquila6797.github.io/-.-/canvas/2",
+          "@type": "sc:Canvas",
+          "label": "Лист 2",
+          "width": 3107,
+          "height": 5308,
+          "images": [
+            {
+              "@id": "https://aquila6797.github.io/-.-/annotation/2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://aquila6797.github.io/-.-/ГАРФ_5325_9_223_30_26.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3107,
+                "height": 5308
+              },
+              "on": "https://aquila6797.github.io/-.-/canvas/2"
+            }
+          ]
+        },
+        {
+          "@id": "https://aquila6797.github.io/-.-/canvas/3",
+          "@type": "sc:Canvas",
+          "label": "Лист 3",
+          "width": 3180,
+          "height": 5323,
+          "images": [
+            {
+              "@id": "https://aquila6797.github.io/-.-/annotation/3",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://aquila6797.github.io/-.-/ГАРФ_5325_9_223_30_27.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3180,
+                "height": 5323
+              },
+              "on": "https://aquila6797.github.io/-.-/canvas/3"
+            }
+          ]
+        },
+        {
+          "@id": "https://aquila6797.github.io/-.-/canvas/4",
+          "@type": "sc:Canvas",
+          "label": "Лист 4",
+          "width": 3150,
+          "height": 5167,
+          "images": [
+            {
+              "@id": "https://aquila6797.github.io/-.-/annotation/4",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://aquila6797.github.io/-.-/ГАРФ_5325_9_223_30_28.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3150,
+                "height": 5167
+              },
+              "on": "https://aquila6797.github.io/-.-/canvas/4"
+            }
+          ]
+        },
+        {
+          "@id": "https://aquila6797.github.io/-.-/canvas/5",
+          "@type": "sc:Canvas",
+          "label": "Лист 5",
+          "width": 3073,
+          "height": 4911,
+          "images": [
+            {
+              "@id": "https://aquila6797.github.io/-.-/annotation/5",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://aquila6797.github.io/-.-/ГАРФ_5325_9_223_30_29.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3073,
+                "height": 4911
+              },
+              "on": "https://aquila6797.github.io/-.-/canvas/5"
+            }
+          ]
+        },
+        {
+          "@id": "https://aquila6797.github.io/-.-/canvas/6",
+          "@type": "sc:Canvas",
+          "label": "Лист 6",
+          "width": 3139,
+          "height": 5149,
+          "images": [
+            {
+              "@id": "https://aquila6797.github.io/-.-/annotation/6",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://aquila6797.github.io/-.-/ГАРФ_5325_9_223_30_30.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3139,
+                "height": 5149
+              },
+              "on": "https://aquila6797.github.io/-.-/canvas/6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
